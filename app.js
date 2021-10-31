@@ -94,8 +94,10 @@ app.get("/notifications", (req, res) => {
 
 // STATUS EROR NOT FOUNDS
 app.use((req, res) => {
-  res.status(404);
-  res.send("<h1>404</h1>");
+  res.render("page/not-found", {
+    title: "Not Found 404",
+    layout: false,
+  });
 });
 
 app.listen(port, () => {
