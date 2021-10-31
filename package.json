@@ -1,7 +1,7 @@
 {
   "name": "Template_Node_js",
   "version": "1.0.0",
-  "description": "",
+  "description": "powered by : zem-art",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
